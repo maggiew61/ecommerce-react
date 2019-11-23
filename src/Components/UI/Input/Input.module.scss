@@ -1,0 +1,53 @@
+$break-tablet: "screen and (max-width: 790px)";
+$break-mobile: "screen and (max-width: 420px)";
+
+
+.Input {
+    width: 100%;
+    // padding: 8px 0px;
+    box-sizing: border-box;
+    border-radius:5px;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+    font-size:18px;
+    border: 0;
+    padding-left: 20px;
+    height: 67px;
+    width: 424px;
+    margin-bottom: 15px;
+    background-color: #f2f2f2;
+    letter-spacing: 2.5px;
+    color: black;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color: #ccc;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color: #FDA49A;
+}
+
+/*tablet design*/
+@media #{$break-mobile}{
+    .InputElement {
+        font-size:16px;
+        border: 0;
+        padding-left: 20px;
+        height: 55px;
+        width: 85vw;
+        margin-bottom: 10px;
+        background-color: #f2f2f2;
+        letter-spacing: 2.5px;
+        color: black;
+    }
+    }

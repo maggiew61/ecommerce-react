@@ -1,0 +1,182 @@
+$break-tablet: "screen and (max-width: 790px)";
+$break-mobile: "screen and (max-width: 420px)";
+
+div,p,header{
+    letter-spacing:3.5px;
+    font-family: Microsoft JhengHei;
+}
+.generalExtraLarge {
+    font-size: 30px;
+    letter-spacing: 3.5px;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+    @media #{$break-tablet}{
+        font-size: 37px;
+    }
+    @media #{$break-mobile}{
+        font-size: 28px;
+    }
+}
+
+.generalSubheader {
+    font-size: 18px;
+    color: #e5e5e5;
+    font-family: Microsoft JhengHei;
+    @media #{$break-tablet}{
+        font-size: 18px;
+    }
+    @media #{$break-mobile}{
+        font-size: 16px;
+    }
+}
+.generalText {
+    font-size: 20px;
+    color: #e5e5e5;
+    font-family: Microsoft JhengHei;
+    @media #{$break-tablet}{
+        font-size: 16px;
+    }
+    @media #{$break-mobile}{
+        font-size: 14px;
+    }
+}
+
+
+
+// begins
+.wrap {
+    display: flex;
+    height: 100vh;
+}
+.wrap aside:first-child {
+    width:55vw;
+    img:first-child{
+        width: 55vw;
+        height: 100%;
+    }
+    div{
+        text-align:center;
+        width:55%;
+        margin:0 auto;
+        padding-top:100px;
+        @media screen and (max-width:1620px){
+            width:65%;
+            padding-top:80px;
+        }
+        @media screen and (max-width:1350px){
+            width:68%;
+        }
+        @media #{$break-mobile}{
+            width:70%;
+        }
+        header{
+            letter-spacing: 25px;
+            font-size: 36px;
+            color:white;
+            @media #{$break-tablet}{
+                letter-spacing: 24px;
+            }
+            @media #{$break-mobile}{
+                letter-spacing: 20px;
+                font-size: 28px;
+            }
+        }
+        p{
+            padding-top:50px;
+            text-align:left;
+            font-size:22px;
+            text-align: justify;
+            @media #{$break-tablet}{
+                padding-top:40px;
+                text-align:left;
+                font-size:20px;
+            }
+            @media #{$break-mobile}{
+                padding-top:30px;
+                font-size:19px;
+            }
+        }
+    }
+}
+.wrap aside:last-child {
+    width:45vw;
+    display:flex;
+    > div{
+        margin:auto;
+        >:first-child{
+            margin-bottom: 15px;
+            color: #505050;
+        }
+        .bullhorn{
+            margin:20px 0px;
+            color:black;
+            font-weight:100;
+        }
+        .input{
+            position:relative;
+            font-weight: 0;
+            input{
+                border: 0;
+                padding-left: 20px;
+                height: 67px;
+                width: 424px;
+                margin-bottom: 25px;
+                background-color: #f2f2f2;
+                letter-spacing: 2.5px;
+                color: black;
+                &:focus{
+                    box-shadow:0 0 10px #b3b3b3;
+                    outline:0;
+                    border-radius:8px;
+                }
+                @media #{$break-tablet}{
+                    padding-left:25px;
+                    width:450px;
+                    height:73px;
+                }
+                @media #{$break-mobile}{
+                    height:66px;
+                    width:370px;
+                }
+            }
+            img{
+                position:absolute;
+                top:12px;
+                right:35px;
+                width:48px;
+                height:43px;
+                @media #{$break-tablet}{
+                    top:18px;
+                    right:25px;
+                    width:43px;
+                    height:37px;
+                }
+                @media #{$break-mobile}{
+                    top:19px;
+                    right:25px;
+                    width:35px;
+                    height:30px;
+                }
+            }
+        }
+    }
+}
+.turnRed{
+    box-shadow:0 0 5px red!important;
+    outline:0 !important;
+    border-radius:8px!important;
+}
+
+/*tablet design*/
+@media #{$break-tablet}{
+    .wrap aside:first-child {
+        display:none;
+    }
+    .wrap aside:last-child {
+        width:100vw;
+        display:flex;
+        }
+
+}
+
+

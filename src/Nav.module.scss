@@ -1,0 +1,125 @@
+$break-tablet: "screen and (max-width: 790px)";
+$break-mobile: "screen and (max-width: 420px)";
+
+nav{
+    background: #002e13;  /* fallback for old browsers */
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    padding: 10px 0px;
+}
+
+.navContainer{ 
+  display:flex;
+  align-items:center;
+  position:relative;
+  justify-content: space-between;
+
+  .shieldIcon{
+      font-size: 40px;
+      color: #c5d9d2;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+      &:hover{
+          color:white;
+      }
+  }
+
+  ul{
+    padding-left:0px;
+    margin:0px;
+    list-style: none;
+    display:flex;
+    align-items:center;
+    a{
+        color:#c5d9d2;
+        text-decoration: none;
+        font-size:16px;
+        margin-left:30px;
+        &:hover{
+            color:white;
+        }  
+    }
+    li{
+        cursor:pointer;
+    } 
+    //登入登出icon   
+    li:last-of-type{
+        padding: 8px 10px; 
+    }
+}
+
+//shoppint cart
+.shoppingcartWrap{
+    position:relative;
+    display: flex;
+    align-items:center;
+
+.shoppingcartIcon{
+    font-size:26px;
+    color: #c5d9d2;
+    &:hover{
+        color:white;
+    }  
+}
+.numberWrap{
+    position:absolute;
+    z-index:1;
+    top:-4px;
+    left:20px;width: 20px; 
+    color: white;
+    background-color: red;
+    height: 20px; 
+    border-radius: 50%;
+    display:flex
+}
+.number{
+    color:white;
+        margin:auto;
+        font-size:13px
+}
+}
+
+
+
+}
+//登入登出icon外的border   
+.whiteBorder{
+    color:#c5d9d2;
+    outline: 2px solid #c5d9d2;
+    &:hover{
+        outline: 2px solid white;
+        color:white;
+    }
+}
+.popupMessage{
+    top: 60px;
+    background-color: #e00b25;
+    /* margin-top: 65px; */
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    opacity:0.9;
+    z-index:2;
+    .checkIcon{
+        color:white;
+        font-size: 25px;
+        margin-right: 5px;
+    }    
+}
+@media #{$break-mobile}{
+nav{
+    padding: 5px 0px;
+}
+    
+.navContainer {
+    padding: 0px 10px;
+    .shieldIcon{ 
+        font-size: 30px;
+    }
+}
+}
+  

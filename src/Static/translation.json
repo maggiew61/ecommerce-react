@@ -1,0 +1,14 @@
+[
+    {"en":"EMAIL_EXISTS","ch":"此email已經有人使用了"
+    },
+    {"en":"OPERATION_NOT_ALLOWED","ch":"無效的嘗試"
+    },
+    {"en":"TOO_MANY_ATTEMPTS_TRY_LATER","ch":"試太多次, 請稍後再試"
+    },
+    {"en":"EMAIL_NOT_FOUND","ch":"無此email,請先註冊"
+    },
+    {"en":"INVALID_PASSWORD","ch":"密碼不對"
+    },
+    {"en":"USER_DISABLED","ch":"此帳號被停權了"
+    }
+]

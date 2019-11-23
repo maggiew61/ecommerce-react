@@ -1,0 +1,60 @@
+$break-tablet: "screen and (max-width: 790px)";
+$break-mobile: "screen and (max-width: 420px)";
+
+//global styling
+div, span, p, ul, li,h1{
+  font-family:Microsoft JhengHei;
+  color:#505050;
+}
+header{
+  font-size: 26px;
+    font-weight: bold;
+}
+p{
+  line-height: 25px;
+}
+:global .containerWrap{ 
+  max-width: 1280px;
+  margin:0 auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.buttom{
+  display:flex;
+  align-items:center
+}
+@media #{$break-tablet}{
+  .buttom{
+    display:initial;
+    align-items:none;
+    line-height: 20px;
+    font-size:14px;
+  }
+  }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

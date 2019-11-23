@@ -1,0 +1,30 @@
+[
+    {
+      "color": "red",
+      "style": "#f33"
+    },
+    {
+      "color": "black",
+      "style": "black"
+    },
+    {
+      "color": "brown",
+      "style": "#885418"
+    },
+    {
+      "color": "grey",
+      "style": "#ddd"
+    },
+    {
+      "color": "yellow",
+      "style": "gold"
+    },
+    {
+      "color": "green",
+      "style": "green"
+    },
+    {
+      "color": "blue",
+      "style": "blue"
+    }
+]

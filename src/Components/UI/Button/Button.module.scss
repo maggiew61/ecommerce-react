@@ -1,0 +1,32 @@
+.Button {
+    // background-color: transparent;
+    margin: auto;
+    display: flex;
+    color: white;
+    background-color: #025839;
+    width: 142px;
+    height: 55px;
+    border-radius: 25px;
+    cursor: pointer;
+    -webkit-transition: border-bottom 0.4s;
+    transition: border-bottom 0.4s;
+    border:0;
+}
+
+.Button:first-of-type {
+    // margin-left: 0;
+    // padding-left: 0;
+}
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}

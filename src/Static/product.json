@@ -1,0 +1,106 @@
+[
+  {
+    "price": 8500,
+    "img": 1,
+    "id": 1,
+    "desc": "EQUAL 依高時計 EG0104 男款 手錶",
+    "name": "RIDER",
+    "color": "red"
+  },
+  {
+    "img": 3,
+    "desc": "EQUAL 依高時計 EG0104 男款 手錶",
+    "name": "QMAX",
+    "color": "brown",
+    "price": 28500,
+    "id": 3
+  },
+  {
+    "img": 4,
+    "color": "black",
+    "desc": "Nameless 簡約手錶 隱約條紋 黑殼",
+    "name": "時尚女性腕錶 (白)",
+    "price": 38500,
+    "id": 4
+  },
+  {
+    "img": 5,
+    "desc": "EQUAL 依高時計 EG0104 男款 手錶",
+    "color": "brown",
+    "name": "APPLE",
+    "price": 38500,
+    "id": 5
+  },
+  {
+    "img": 6,
+    "color": "black",
+    "desc": "Nameless 簡約手錶 隱約條紋 黑殼",
+    "name": "時尚男性腕錶 (藍黑)",
+    "price": 38500,
+    "id": 6
+  },
+  {
+    "img": 7,
+    "desc": "EQUAL 依高時計 EG0104 男款 手錶",
+    "color": "grey",
+    "name": "WOWOC",
+    "price": 38500,
+    "id": 7
+  },
+  {
+    "img": 8,
+    "desc": "Nameless 簡約手錶 隱約條紋 黑殼",
+    "name": "CRW",
+    "price": 38500,
+    "color": "yellow",
+    "id": 8
+  },
+  {
+    "img": 9,
+    "desc": "EQUAL 依高時計 EG0104 男款 手錶",
+    "name": "BETTER TIMES",
+    "color": "yellow",
+    "price": 38500,
+    "id": 9
+  },
+  {
+    "img": 10,
+    "desc": "Nameless 簡約手錶 隱約條紋 黑殼",
+    "name": "BETTER TIMES",
+    "price": 38500,
+    "id": 10,
+    "color": "yellow"
+  },
+  {
+    "img": 11,
+    "desc": "EQUAL 依高時計 EG0104 男款 手錶",
+    "name": "FIBER",
+    "price": 38500,
+    "id": 11,
+    "color": "blue"
+  },
+  {
+    "img": 12,
+    "desc": "Nameless 簡約手錶 隱約條紋 黑殼",
+    "name": "NO.91",
+    "price": 38500,
+    "id": 12,
+    "color": "green"
+  },
+  {
+    "img": 13,
+    "desc": "EQUAL 依高時計 EG0104 男款 手錶",
+    "name": "TRIWA",
+    "price": 38500,
+    "id": 13,
+    "color": "blue"
+  },
+  {
+    "img": 14,
+    "desc": "Nameless 簡約手錶 隱約條紋 黑殼",
+    "name": "BUTTERO",
+    "price": 38500,
+    "id": 14,
+    "color": "grey"
+  }
+]

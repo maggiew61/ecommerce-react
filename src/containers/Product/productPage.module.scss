@@ -1,0 +1,100 @@
+.productPageWrap{
+    margin-top:65px
+}
+.productFlex{
+    display:flex;
+    >div:first-of-type{
+        flex: 1;
+        display:flex;
+        img{
+            width: 70%; 
+            height: 600px; 
+            margin: 35px auto 0px auto 
+        }    
+    }
+}
+.rightSection{
+    flex:1;
+    .container{
+        margin-top:35px;
+        padding-left: 30px;
+        header{
+            font-size: 26px;
+            font-weight: bold;
+        }
+        >div:first-of-type{
+            font-size: 1.875rem;                                                   
+            padding: 15px;
+            background-color: rgb(250,250,250);
+            color: #d0011b;
+            font-weight: bold;
+            margin-bottom:15px;
+        }
+        >div:nth-of-type(3){
+            border-radius:4px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding: 10px 0px;
+            width: 100%;
+            margin: 15px 0px;
+            cursor:pointer;
+        }
+        .numberTitle{
+            margin-bottom:10px;
+        }
+    }
+    
+}
+.orange{
+    background-color:#025839;
+    &:hover{
+        background-color:#014029;
+        transition: background-color 250ms ease-in-out;
+    }
+}
+.skyblue{
+    background-color:#e00b25;
+    &:hover{
+        background-color:#ad071b;
+        transition: background-color 250ms ease-in-out;
+    }
+}
+
+$break-tablet: "screen and (max-width: 790px)";
+$break-mobile: "screen and (max-width: 420px)";
+/*tablet design*/
+@media #{$break-tablet}{
+    .productFlex{
+        flex-direction:column;
+    }
+    .productFlex{
+        >div:first-of-type{
+            img{
+                margin: 0px auto; 
+            }    
+        }
+    }    
+}
+@media #{$break-mobile}{
+    .productPageWrap{
+        margin-top:55px
+    }    
+    .productFlex{
+        >div:first-of-type{
+            img{
+                width: 65%; 
+                height: 380px; 
+            }    
+        }
+    }   
+    .rightSection .container{
+            padding: 0px 10px;
+            header{
+                font-size: 24px;
+                font-weight: normal;
+                line-height: 30px;
+            }    
+    }
+}
+
